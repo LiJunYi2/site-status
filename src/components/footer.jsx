@@ -23,10 +23,9 @@ const Footer = () => {
       <div className="text">
         <p>
           <CustomLink
-            text={Package.alia}
-            to="https://github.com/imsyy/site-status"
+            text="免费领取流量卡"
+            to="https://simhaoka.com/phone/index?id=157ABC6A88A7DA43B250149A2F2BA38F"
           />
-          &nbsp;Version&nbsp;{Package.version}
         </p>
         <p>
           基于&nbsp;
@@ -36,7 +35,7 @@ const Footer = () => {
         <p>
           Copyright&nbsp;&copy;&nbsp;2020&nbsp;-&nbsp;{new Date().getFullYear()}
           &nbsp;
-          <CustomLink to="https://www.imsyy.top/" text="無名" />
+          <CustomLink to="https://lijunyi.xyz//" text="A嘉博客" />
           {siteIcp ? (
             <React.Fragment>
               &nbsp;|&nbsp;
