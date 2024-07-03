@@ -18,13 +18,17 @@ const Footer = () => {
           to={`https://github.com/${githubName}/`}
         />
         <CustomLink iconDom={<Home />} to={homeUrl} />
-        <CustomLink iconDom={<Mail />} to={`mailto:${emailUrl}`} />
+        <CustomLink iconDom={<Home />} to={emailUrl} />
       </div>
       <div className="text">
         <p>
           <CustomLink
             text="免费领取流量卡"
             to="https://simhaoka.com/phone/index?id=157ABC6A88A7DA43B250149A2F2BA38F"
+          />|
+          <CustomLink
+            text="Docker加速镜像"
+            to="https://docker.211678.top/"
           />
         </p>
         <p>
@@ -33,9 +37,9 @@ const Footer = () => {
           &nbsp;接口&nbsp;|&nbsp;检测频率 5 分钟
         </p>
         <p>
-          Copyright&nbsp;&copy;&nbsp;2020&nbsp;-&nbsp;{new Date().getFullYear()}
+          &copy;&nbsp;{new Date().getFullYear()}
           &nbsp;
-          <CustomLink to="https://lijunyi.xyz//" text="A嘉博客" />
+          <CustomLink to="https://lijunyi.xyz/" text="我的博客" />
           {siteIcp ? (
             <React.Fragment>
               &nbsp;|&nbsp;
