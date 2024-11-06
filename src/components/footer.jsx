@@ -27,8 +27,8 @@ const Footer = () => {
             to="https://simhaoka.com/phone/index?id=157ABC6A88A7DA43B250149A2F2BA38F"
           />|
           <CustomLink
-            text="Docker加速镜像"
-            to="https://docker.211678.top/"
+            text="在线自助商城"
+            to="https://agood.huoyuan.xyz/a/b/c/"
           />
         </p>
         <p>
